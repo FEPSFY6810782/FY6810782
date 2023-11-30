@@ -12,7 +12,9 @@
 <hr>
 
  <!style for tables>
+    
       <style>
+        
         table{
           font-family: arial, sans-serif;
           border-collapse: collapse;
@@ -50,8 +52,6 @@
   <body style="background-color:#FFFFFF;margin-left:50px;">
     <hr>
     
-      <h3 id="Abstract">Abstract</h3>
-
         <!table of contents>
     <table>
 
@@ -65,52 +65,61 @@
         <td><a href"=#Introduction">Introduction</td>
       </tr>
       <tr>
-        <td><a href"=#Analysis and Discussion">Analysis and Discussion</td>
+        <td><a href"=#Why do planes need an angle of attack (AOA)?">Why do planes need an angle of attack (AOA)?</td>
       </tr>
       <tr>
         <td><a href"References">References</td>
       </tr>
+      <tr>
+        <td><a href"Effects of Angle of Attack on Flight">Effects of Angle of Attack on Flight</td>
+      </tr>
+      
     </table>
+
+      <h3 id="Abstract">Abstract</h3>
 
 <p class="ex1">
 <pre>
-This paper presents a novel adaptive active learning strategy. The most accurate classification model from a heterogeneous classifier pool is selected at each learning epoch. 
-Our goal is to achieve greater incremental improvement in accuracy, compared to using a single type of classification model throughout the process. 
-The strategy is evaluated on benchmark data sets. We further consider an application to texture classification problems in sonar mosaic imagery and compare it with non-adaptive active learning 
-and traditional machine learning approaches. Our results show that..We conclude that..
 
+Abstract goes here
+  
 </pre>
 </p>
-  <p class="ex1">
-    <pre>
-    “Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept is learnt by an intelligent machine through the interaction of an oracle with the machine system, 
-     over a sequence of learning epochs. A distinctive component in an active system is the querying strategy, used to sample candidate training instances from a pool and evaluate them for informativeness, 
-     i.e., their potential to improve the classification model. Various strategies have been proposed including; Query by Committee (Seung et al., 1992), Monte Carlo estimation (Roy and McCallum, 2001), 
-    uncertainty sampling (Lewis and Gale, 1994) and version space reduction (margin sampling) (Tong and Koller, 2001). Irrespective of how the most informative pattern instances are chosen at each 
-    epoch they are presented for labeling, to a machine (database) or human oracle that has knowledge of the class labels. After adding the newly labeled instances to the current training set, 
-    a revised model is subsequently induced. A goal of this process is to achieve an efficient, incremental advancement of learning at each epoch. 
-    The process is continued until some stopping criterion has been met, such as reaching a stage where information from the selected instances is contrary to the model, 
-    causing the classifier confidence to drop, as in Vlachos (2008).”
-    </pre>
-  </p>
-  <h3 id=”Analysis and discussion”>Analysis and discussion</h3>
+  
+  <h3 id=”Introduction”>Introduction</h3>
 
     <p class= "ex1">
+An increase in angle of attack of a planes’ wings results in an increase in both lift and induced drag (skybrary.aero, n.d.). If the angle of attack is too steep, the airflow across the upper surface of the aerofoil gets disconnected. This results in the airflow around the wing not being laminar (Al Bowers, 2011) resulting in a loss of lift, also known as stalling. The angle at which relative wind strikes an aerofoil is known as the angle of attack. The relative velocity between the aeroplane and the atmosphere is represented by the angle created by the aerofoil's chord and the relative wind direction (skybrary.aero, n.d.). By finding ways to maximise the angle of attack, we can reduce the time taken for take-off and landing which would reduce the fuel consumption as a huge amount of fuel is needed for that part of the journey.
     </p>
+
+    <h3 id="Why do planes need an angle of attack (AOA)?">Why do planes need an angle of attack (AOA)?</h3>
+
+     <p class="ex1">
+    <pre>
+Over time, the design of planes’ wings have changed to increase lift and reduce the amount of thrust needed for flight. This is done by making the air on top of the wing move faster than the bottom (SIMSCALE, 2023). This is why the wings’ top surface is curved and the bottom is flat. Having a greater velocity of air on the top than the bottom creates a low pressure zone on top of the wing and a greater pressure on the bottom (The National Aeronautics and Space Administration, 2017). In order to create and even greater angle the wing itself is tilted which allows for the plane to have maximum upthrust whilst burning a minute amount of fuel.
+    </pre>
+  </p>
+
+    <h3 id="Effects of Angle of Attack on Flight">Effects of Angle of Attack on Flight</h3>
+
+    <p>
+<pre>
+
+ The angle of attack of an aerofoil can be visualized by looking at the aerofoil’s cross section and the direction of oncoming wind during flight. 
+
+  
+A plane's angle of attack has several implications. While increasing the angle of attack results in increased lift, it also makes aeroplanes more susceptible to stalling. Stalls occur when an aeroplane fails to generate adequate lift due to a critical angle of attack (when the angle of attack is greater than the maximum angle of attack). Air will flow easily over the plane's wings, and if there is insufficient lift, i.e. the weight due to gravity is greater than the lift, the plane will fall from the sky.
+
+  
+</pre>    
+</p>
 
     <h3 id="References">References</h3>
 <p>
 <pre>
-  Angluin, D (1988), Queries and concept learning. Machine learning 2, (4), 319-342.
-  
-  Brinker, K (2003), Incorporating Diversity in Active Learning with Support Vector Machines, Proceedings of the Twentieth International Conference on Machine Learning (ICML-2003).
-  Bruzzone, L, Chi, M and Marconcini, M (2006), A novel transductive SVM for semisupervised classication of remote-sensing images, IEEE Transactions on Geoscience and Remote Sensing, 44, (11), 3363.
 
-  Bruzzone, L and Persello, C (2009), Active learning for classification of remote sensing images.
+  References here
   
-  In: Geoscience and Remote Sensing Symposium, 2009 IEEE International, IGARSS 2009, 3.
-  
-  Campbell, C, Cristianini, N and Smola, A (2000), Query learning with large margin classifiers. In: Proc. 17th Internat. Conf. on Machine Learning. Morgan Kaufman, Stanford, CA, 111-118. 
 </pre>    
 </p>
 </html>
